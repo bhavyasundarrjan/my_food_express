@@ -1,0 +1,76 @@
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-card{
+    height: 300px;
+    width: 250px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px #ddd;
+    padding: 5px;
+    margin: 5px;
+}
+
+.menu-card img {
+    height: 70%;
+    width: 100%;
+}
+
+.menu-card .title {
+    height: 21px;
+    overflow: hidden;
+}
+
+.cart-button{
+    background-color: transparent;
+    border: 1px solid rgb(19, 19, 19);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+.cart-button:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+}
+
+.cart-update-button-decrement {
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.cart-update-button-increment {
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.cart-update-button-increment:hover,
+.cart-update-button-decrement:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+}
+
+.cart-update-button-quantity {
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    border-width: 2px 0px;
+}
+
+.cart-update-button-quantity:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
